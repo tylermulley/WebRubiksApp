@@ -709,6 +709,8 @@
 
 function scramble(){
 
+	reset();
+
 	var counter = 0;
 	var lastRand = 0;
 	var madeMove = false
@@ -1123,6 +1125,77 @@ function cornerSolve(position){
 			break;
 
 	} 
+};
+
+function reset(){
+	var blueSide = $(".blue .pieces").children();
+	var greenSide = $('.green .pieces').children();
+	var redSide = $('.red .pieces').children();
+	var orangeSide = $('.orange .pieces').children();
+	var yellowSide = $('.yellow .pieces').children();
+	var whiteSide = $('.white .pieces').children();
+
+	var orange = "rgb(255, 165, 0)";
+	var red = "rgb(255, 0, 0)";
+	var green = "rgb(0, 128, 0)";  
+	var blue = "rgb(0, 0, 255)";
+	var yellow = "rgb(255, 255, 0)";
+	var white = "rgb(255, 255, 255)";
+
+	$(yellowSide[0]).css("background-color", "" + yellow +"");
+	$(yellowSide[1]).css("background-color", "" + yellow +"");
+	$(yellowSide[2]).css("background-color", "" + yellow +"");
+	$(yellowSide[3]).css("background-color", "" + yellow +"");
+	$(yellowSide[5]).css("background-color", "" + yellow +"");
+	$(yellowSide[6]).css("background-color", "" + yellow +"");
+	$(yellowSide[7]).css("background-color", "" + yellow +"");
+	$(yellowSide[8]).css("background-color", "" + yellow +"");
+
+	$(whiteSide[0]).css("background-color", "" + white +"");
+	$(whiteSide[1]).css("background-color", "" + white +"");
+	$(whiteSide[2]).css("background-color", "" + white +"");
+	$(whiteSide[3]).css("background-color", "" + white +"");
+	$(whiteSide[5]).css("background-color", "" + white +"");
+	$(whiteSide[6]).css("background-color", "" + white +"");
+	$(whiteSide[7]).css("background-color", "" + white +"");
+	$(whiteSide[8]).css("background-color", "" + white +"");
+
+	$(redSide[0]).css("background-color", "" + red +"");
+	$(redSide[1]).css("background-color", "" + red +"");
+	$(redSide[2]).css("background-color", "" + red +"");
+	$(redSide[3]).css("background-color", "" + red +"");
+	$(redSide[5]).css("background-color", "" + red +"");
+	$(redSide[6]).css("background-color", "" + red +"");
+	$(redSide[7]).css("background-color", "" + red +"");
+	$(redSide[8]).css("background-color", "" + red +"");
+
+	$(orangeSide[0]).css("background-color", "" + orange +"");
+	$(orangeSide[1]).css("background-color", "" + orange +"");
+	$(orangeSide[2]).css("background-color", "" + orange +"");
+	$(orangeSide[3]).css("background-color", "" + orange +"");
+	$(orangeSide[5]).css("background-color", "" + orange +"");
+	$(orangeSide[6]).css("background-color", "" + orange +"");
+	$(orangeSide[7]).css("background-color", "" + orange +"");
+	$(orangeSide[8]).css("background-color", "" + orange +"");
+
+	$(blueSide[0]).css("background-color", "" + blue +"");
+	$(blueSide[1]).css("background-color", "" + blue +"");
+	$(blueSide[2]).css("background-color", "" + blue +"");
+	$(blueSide[3]).css("background-color", "" + blue +"");
+	$(blueSide[5]).css("background-color", "" + blue +"");
+	$(blueSide[6]).css("background-color", "" + blue +"");
+	$(blueSide[7]).css("background-color", "" + blue +"");
+	$(blueSide[8]).css("background-color", "" + blue +"");
+
+	$(greenSide[0]).css("background-color", "" + green +"");
+	$(greenSide[1]).css("background-color", "" + green +"");
+	$(greenSide[2]).css("background-color", "" + green +"");
+	$(greenSide[3]).css("background-color", "" + green +"");
+	$(greenSide[5]).css("background-color", "" + green +"");
+	$(greenSide[6]).css("background-color", "" + green +"");
+	$(greenSide[7]).css("background-color", "" + green +"");
+	$(greenSide[8]).css("background-color", "" + green +"");
+
 };
 // When page opens this starts
 $(document).ready(function() {
