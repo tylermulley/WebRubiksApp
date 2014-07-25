@@ -1,0 +1,393 @@
+.white{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border: solid black;
+	position: absolute;
+	top: 570px;
+	left: 350px;
+	border-radius: 10px;
+}
+.red{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border: solid black;
+	position: absolute;
+	top: 300px;
+	left: 890px;
+	border-radius: 10px;
+}
+.green{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border: solid black;
+	position: absolute;
+	top: 300px;
+	left: 80px;
+	border-radius: 10px;
+}
+
+.blue{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border: solid black;
+	position: absolute;
+	top: 300px;
+	left: 620px;
+	border-radius: 10px;
+}
+
+.orange{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border: solid black;
+	position: absolute;
+	top: 300px;
+	left: 350px;
+	border-radius: 10px;
+}
+
+.yellow{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border: solid black;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	border-radius: 10px;
+}
+.pieces div{
+	position: absolute;
+	border: solid black 3px;
+	border-radius: 10px;
+	height: 80px;
+	width: 80px;
+}
+.one{
+	left: 0;
+	top: 0;
+}
+
+.two{
+	left: 83px;
+	top: 0px;
+}
+
+.three{
+	left: 166px;
+	top: 0px;
+}
+.four{
+	left: 0;
+	top: 83px;
+}
+
+.five{
+	left: 83px;
+	top: 83px;
+}
+
+.six{
+	left: 166px;
+	top: 83px;
+}
+.seven{
+	left: 0;
+	top: 166px;
+}
+
+.eight{
+	left: 83px;
+	top: 166px;
+}
+
+.nine{
+	left: 166px;
+	top: 166px;
+}
+
+
+/*COLORS*/
+	.white .one{
+		background-color: white;
+	}
+	.white .two{
+		background-color: white;
+	}
+
+	.white .three{
+		background-color: white;
+	}
+
+	.white .four{
+		background-color: white;
+	}
+
+	.white .five{
+		background-color: white;
+	}
+
+	.white .six{
+		background-color: white;
+	}
+
+	.white .seven{
+		background-color: white;
+	}
+
+	.white .eight{
+		background-color: white;
+	}
+
+	.white .nine{
+		background-color: white;
+	}
+
+
+	.yellow .one{
+		background-color: yellow;
+	}
+	.yellow .two{
+		background-color: yellow;
+	}
+
+	.yellow .three{
+		background-color: yellow;
+	}
+
+	.yellow .four{
+		background-color: yellow;
+	}
+
+	.yellow .five{
+		background-color: yellow;
+	}
+
+	.yellow .six{
+		background-color: yellow;
+	}
+
+	.yellow .seven{
+		background-color: yellow;
+	}
+
+	.yellow .eight{
+		background-color: yellow;
+	}
+
+	.yellow .nine{
+		background-color: yellow;
+	}
+
+
+
+	.blue .one{
+		background-color: blue;
+	}
+	.blue .two{
+		background-color: blue;
+	}
+
+	.blue .three{
+		background-color: blue;
+	}
+
+	.blue .four{
+		background-color: blue;
+	}
+
+	.blue .five{
+		background-color: blue;
+	}
+
+	.blue .six{
+		background-color: blue;
+	}
+
+	.blue .seven{
+		background-color: blue;
+	}
+
+	.blue .eight{
+		background-color: blue;
+	}
+
+	.blue .nine{
+		background-color: blue;
+	}
+
+
+
+	.green .one{
+		background-color: green;
+	}
+	.green .two{
+		background-color: green;
+	}
+
+	.green .three{
+		background-color: green;
+	}
+
+	.green .four{
+		background-color: green;
+	}
+
+	.green .five{
+		background-color: green;
+	}
+
+	.green .six{
+		background-color: green;
+	}
+
+	.green .seven{
+		background-color: green;
+	}
+
+	.green .eight{
+		background-color: green;
+	}
+
+	.green .nine{
+		background-color: green;
+	}
+
+
+	.red .one{
+		background-color: red;
+	}
+	.red .two{
+		background-color: red;
+	}
+
+	.red .three{
+		background-color: red;
+	}
+
+	.red .four{
+		background-color: red;
+	}
+
+	.red .five{
+		background-color: red;
+	}
+
+	.red .six{
+		background-color: red;
+	}
+
+	.red .seven{
+		background-color: red;
+	}
+
+	.red .eight{
+		background-color: red;
+	}
+
+	.red .nine{
+		background-color: red;
+	}
+
+
+
+	.orange .one{
+		background-color: orange;
+	}
+	.orange .two{
+		background-color: orange;
+	}
+
+	.orange .three{
+		background-color: orange;
+	}
+
+	.orange .four{
+		background-color: orange;
+	}
+
+	.orange .five{
+		background-color: orange;
+	}
+
+	.orange .six{
+		background-color: orange;
+	}
+
+	.orange .seven{
+		background-color: orange;
+	}
+
+	.orange .eight{
+		background-color: orange;
+	}
+
+	.orange .nine{
+		background-color: orange;
+	}
+
+
+
+
+button {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 900px;
+	font-family: 'comic-sans';
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#scramble{
+	width: 200px;
+}
+
+#scramble-text{
+	position: relative;
+	font-family: 'helvetica';
+	font-size: 2em;
+	font-weight: bold;
+	top: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
