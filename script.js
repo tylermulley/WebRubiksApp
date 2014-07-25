@@ -826,7 +826,7 @@ function cornerSolve(position){
 			break;
 	} 
 }
-// When page opens this starts
+// When page opens this starts I LIKE CHICKEN
 $(document).ready(function() {
 
  	
