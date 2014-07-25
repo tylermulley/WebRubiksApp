@@ -1135,66 +1135,15 @@ function reset(){
 	var yellowSide = $('.yellow .pieces').children();
 	var whiteSide = $('.white .pieces').children();
 
-	var orange = "rgb(255, 165, 0)";
-	var red = "rgb(255, 0, 0)";
-	var green = "rgb(0, 128, 0)";  
-	var blue = "rgb(0, 0, 255)";
-	var yellow = "rgb(255, 255, 0)";
-	var white = "rgb(255, 255, 255)";
+	for (i = 0; i < 9; i++){
+		$(yellowSide[i]).css("background-color", "rgb(255, 255, 0)");
+		$(whiteSide[i]).css("background-color", "rgb(255, 255, 255)");
+		$(blueSide[i]).css("background-color", "rgb(0, 0, 255)");
+		$(greenSide[i]).css("background-color", "rgb(0, 128, 0)");
+		$(redSide[i]).css("background-color", "rgb(255, 0, 0)");
+		$(orangeSide[i]).css("background-color", "rgb(255, 165, 0)");
+	}
 
-	$(yellowSide[0]).css("background-color", "" + yellow +"");
-	$(yellowSide[1]).css("background-color", "" + yellow +"");
-	$(yellowSide[2]).css("background-color", "" + yellow +"");
-	$(yellowSide[3]).css("background-color", "" + yellow +"");
-	$(yellowSide[5]).css("background-color", "" + yellow +"");
-	$(yellowSide[6]).css("background-color", "" + yellow +"");
-	$(yellowSide[7]).css("background-color", "" + yellow +"");
-	$(yellowSide[8]).css("background-color", "" + yellow +"");
-
-	$(whiteSide[0]).css("background-color", "" + white +"");
-	$(whiteSide[1]).css("background-color", "" + white +"");
-	$(whiteSide[2]).css("background-color", "" + white +"");
-	$(whiteSide[3]).css("background-color", "" + white +"");
-	$(whiteSide[5]).css("background-color", "" + white +"");
-	$(whiteSide[6]).css("background-color", "" + white +"");
-	$(whiteSide[7]).css("background-color", "" + white +"");
-	$(whiteSide[8]).css("background-color", "" + white +"");
-
-	$(redSide[0]).css("background-color", "" + red +"");
-	$(redSide[1]).css("background-color", "" + red +"");
-	$(redSide[2]).css("background-color", "" + red +"");
-	$(redSide[3]).css("background-color", "" + red +"");
-	$(redSide[5]).css("background-color", "" + red +"");
-	$(redSide[6]).css("background-color", "" + red +"");
-	$(redSide[7]).css("background-color", "" + red +"");
-	$(redSide[8]).css("background-color", "" + red +"");
-
-	$(orangeSide[0]).css("background-color", "" + orange +"");
-	$(orangeSide[1]).css("background-color", "" + orange +"");
-	$(orangeSide[2]).css("background-color", "" + orange +"");
-	$(orangeSide[3]).css("background-color", "" + orange +"");
-	$(orangeSide[5]).css("background-color", "" + orange +"");
-	$(orangeSide[6]).css("background-color", "" + orange +"");
-	$(orangeSide[7]).css("background-color", "" + orange +"");
-	$(orangeSide[8]).css("background-color", "" + orange +"");
-
-	$(blueSide[0]).css("background-color", "" + blue +"");
-	$(blueSide[1]).css("background-color", "" + blue +"");
-	$(blueSide[2]).css("background-color", "" + blue +"");
-	$(blueSide[3]).css("background-color", "" + blue +"");
-	$(blueSide[5]).css("background-color", "" + blue +"");
-	$(blueSide[6]).css("background-color", "" + blue +"");
-	$(blueSide[7]).css("background-color", "" + blue +"");
-	$(blueSide[8]).css("background-color", "" + blue +"");
-
-	$(greenSide[0]).css("background-color", "" + green +"");
-	$(greenSide[1]).css("background-color", "" + green +"");
-	$(greenSide[2]).css("background-color", "" + green +"");
-	$(greenSide[3]).css("background-color", "" + green +"");
-	$(greenSide[5]).css("background-color", "" + green +"");
-	$(greenSide[6]).css("background-color", "" + green +"");
-	$(greenSide[7]).css("background-color", "" + green +"");
-	$(greenSide[8]).css("background-color", "" + green +"");
 
 };
 // When page opens this starts
