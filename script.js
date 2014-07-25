@@ -778,7 +778,7 @@ function scramble(){
 
 };
 
-//Swaps A with P on the cube
+//Swaps A location with P location on the cube
 function cornerAlgorithm(){
 	R(); 
 	UPrime(); 
@@ -882,7 +882,7 @@ function processCornerPiece(color1, color2, color3){
 
 };
 
-function cornersSolved(piece){
+function cornersSolved(){
 	var unsolved = [];
 	var orange = "rgb(255, 165, 0)";
 	var red = "rgb(255, 0, 0)";
@@ -1002,12 +1002,33 @@ function solveCorners(){
 	var yellowSide = $('.yellow .pieces').children();
 	var whiteSide = $('.white .pieces').children();
 
-	// Piece at top back left
+	var solved = false;
+
+
+	// if (cornersSolved().length == 0){
+	// 	solved = true;
+	// }
+	
+	// while (!solved){
+
+	// 	if (cornersSolved().length == 0){solved = true;}
+
+	// 	var A = $(yellowSide[0]).css('background-color');
+	// 	var E = $(greenSide[0]).css('background-color');
+	// 	var R = $(redSide[2]).css('background-color');
+
+	// 	cornerSolve(processCornerPiece(A, E, R));
+	// }
+
+	// console.log("SHOULD BE SOLVED")
+
 	var A = $(yellowSide[0]).css('background-color');
 	var E = $(greenSide[0]).css('background-color');
 	var R = $(redSide[2]).css('background-color');
 
 	cornerSolve(processCornerPiece(A, E, R));
+
+	console.log(cornersSolved().length)
 };
 
 //Solves or repositions one corner piece given the position of the color
