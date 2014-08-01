@@ -1199,7 +1199,7 @@ var white = "rgb(255, 255, 255)";
 
 	};
 
-	function solveCornerPieces(){
+	function solveFirstLayer(){
 
 		var counter = 0;
 
@@ -1219,6 +1219,12 @@ var white = "rgb(255, 255, 255)";
 	};
 
 
+function solve(){
+
+	solveCross();
+	solveFirstLayer();
+
+};
 
 // When page opens this starts
 $(document).ready(function() {
